@@ -1,2 +1,174 @@
-@charset "utf-8";
-/*css file*/
+@charset "UTF-8";
+ /*css Document */
+
+/*hide elements from browser but show for doc outline*/
+.hidden
+{
+  display: none;
+}
+
+/*HTML selectors*/
+
+body
+{
+ font-family: 'Roboto', Helvetica, Arial, sans-serif;
+ font-family: 'Open Sans', Helvetica, Arial, sans-serif;
+ font-size: 12px;
+ color: #3b3b3b;
+ background: #1a2127;
+ /*Gradient Color */
+ background: #ececec; /* Old browsers */
+ background: linear-gradient(to bottom, #ececec 0%,#fff 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+}
+
+img
+{
+ border: none;
+ margin: 0;
+ padding: 0;
+}
+
+/*a will style anchor links*/
+a
+{
+text-decoration: none;
+}
+
+/*a:link is for not visited, a:visited is for visited, and just a applies to both.*/
+
+a:link, a:visited {
+text-decoration:none;
+}
+
+a:hover, a:active {
+text-decoration:none;
+ }
+
+#siteContainer
+{
+  margin: 0 auto;
+  width: 1200px;
+  height: auto;
+}
+
+/* Introduction */
+.teamBio
+{
+  display: block;
+  flex-direction: row;
+}
+
+/* Luisa's image */
+  #luisaImage
+  {
+  margin-right: auto;
+  /* background: url(../images/luisa_valero.png) no-repeat bottom; */
+  /* width: 1200px;
+  height: 675px; */
+  box-shadow: 0 10px 14px -14px #777;
+  }
+
+/* Who is*/
+#whoIsTeam {
+	position: absolute;
+
+	}
+
+  /*span*/
+  .whoIs
+  {
+  font-family: 'Roboto', Helvetica, Arial, sans-serif;
+  font-size: 45px;
+  letter-spacing: 3px;
+  font-weight: lighter;
+  width: 100px;
+  color: #fff;
+  text-shadow: 2px 2px 4px #0a0a0a;
+  }
+
+.she
+{
+font-family: 'Roboto', Helvetica, Arial, sans-serif;
+letter-spacing: 4px;
+line-height: 70px;
+font-size: 68px;
+font-weight: normal;
+color: #d8c5c0;
+width: 300px;
+height: 300px;
+margin-left: 86px;
+margin-top: -570px;
+position: relative;
+text-shadow: 2px 2px 4px #0a0a0a;
+}
+
+.bio
+{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  margin-top: 20px;
+
+}
+
+/* biography heading */
+#aboutLV
+{
+font-family: 'Roboto', Helvetica, Arial, sans-serif;
+letter-spacing: 4px;
+font-size: 40px;
+font-weight: normal;
+color: #444444;
+width: 300px;
+height: 100px;
+margin-right: 730px;
+margin-top: -132px;
+position: absolute;
+text-shadow: 2px 2px 4px #e2e2e2;
+}
+
+/* paragraph */
+.description
+{
+font-family: 'Open Sans', Helvetica, Arial, sans-serif;
+color: #444444;
+font-size: 15px;
+line-height: 26px;
+width: 300px;
+padding: 10px;
+margin-left: 5px;
+margin-bottom: 25px;
+}
+
+/* Button */
+.Button
+{
+  position: fixed;
+}
+.changeBio
+{
+  /*Gradient Color */
+  background: #193327; /* Old browsers */
+  background: linear-gradient(to bottom, #193327 0%,#17231d 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+  display: block;
+  width: 200px;
+  color: #efe7e4;
+  border-radius: 20px;
+  text-transform: uppercase;
+  text-align: center;
+  letter-spacing: 2px;
+  margin-top: 10px;
+  margin-left: 880px;
+  margin-bottom: 20px;
+  padding: 10px;
+  font-size: 14px;
+  transition: all .6s linear;
+  box-shadow: 0 10px 14px -14px #777;
+}
+
+/* Change to dark text */
+.changeBio:hover
+{
+  color: #444444;
+  /* box-shadow: inset 0 0 0 25px #e2e2e2; */
+}
