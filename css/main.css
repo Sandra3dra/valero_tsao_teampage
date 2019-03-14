@@ -118,7 +118,7 @@ position: absolute;
 text-shadow: 2px 2px 4px #e2e2e2;
 }
 
-#articles
+.articles
 {
   display: flex;
   flex-direction: row;
@@ -126,7 +126,7 @@ text-shadow: 2px 2px 4px #e2e2e2;
   margin-top: 5%;
 }
 
-#articles2
+.articles2
 {
   display: flex;
   flex-direction: row;
@@ -137,7 +137,7 @@ text-shadow: 2px 2px 4px #e2e2e2;
 .sPart {
   position: absolute;
   width: 100%;
-  margin-top: -36%;
+  /*margin-top: -36%;*/
 /*  display: none;*/  /*switch this to see texts*/
 }
 
@@ -155,13 +155,22 @@ margin-bottom: 25px;
 }
 
 /* Button */
-.button
+.buttontoS
 {
   position: absolute;
   margin-left: 75%;
   margin-top: 35%;
   height: 15%;
 }
+
+.buttontoL
+{
+  position: absolute;
+  margin-left: 75%;
+  margin-top: 38%;
+  height: 15%;
+}
+
 .changebiotoS
 {
   /*Gradient Color */
