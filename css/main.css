@@ -100,29 +100,16 @@ text-decoration:none;
 }
 
 
-/* Sandra */
-/* .question
+/* Sandra */ 
+ .qforS
 {
-  font-family: 'Roboto', Helvetica, Arial, sans-serif;
-  font-size: 45px;
-  letter-spacing: 3px;
-  font-weight: lighter;
-  color: #fff;
-  text-shadow: 2px 2px 4px #bbb;
+  text-shadow: 2px 2px 4px #666 !important;
 }
 
-.name
+.forS
 {
-  font-family: 'Roboto', Helvetica, Arial, sans-serif;
-  letter-spacing: 4px;
-  line-height: 70px;
-  font-size: 68px;
-  font-weight: normal;
-  color: #ab5b59;
-  display: block;
-  width: 600px;
-  text-shadow: 2px 2px 4px #c5c5c5;
-} */
+  color: #ab5b59 !important;
+} 
 
 .bio {
   position: absolute;
