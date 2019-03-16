@@ -100,16 +100,18 @@ text-decoration:none;
 }
 
 
-/* Sandra */ 
+/* Sandra */
  .qforS
 {
-  text-shadow: 2px 2px 4px #666 !important;
+  text-shadow: 2px 2px 4px #bbb !important;
 }
 
 .forS
 {
   color: #ab5b59 !important;
-} 
+  text-shadow: 2px 2px 4px #bbb !important;
+
+}
 
 .bio {
   position: absolute;
